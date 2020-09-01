@@ -1,0 +1,12 @@
+//items
+item.lunita_ore.name=Lunita
+item.bravin_ingot.name=Lingote de Bravin
+item.bravin_chestplate.name=Pechera de Bravin
+item.bravin_helmet.name=Casco de Bravin
+item.bravin_legs.name=Pantalones de Bravin
+item.bravin_feets.name=Botas de Bravin
+
+//blocks
+tile.lunita_block.name=Mineral de Lunita
+tile.bravin_block.name=Mineral de Bravin
+itemGroup.Soeoe=SoeMod

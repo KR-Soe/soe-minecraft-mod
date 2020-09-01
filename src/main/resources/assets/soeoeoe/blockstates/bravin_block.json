@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "soeoeoe:bravin_block" 
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

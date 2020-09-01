@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+    ],
+    "key": {
+        "X": {
+            "item": "soeoeoe:bravin_ingot"
+        }
+     },
+    "result": {
+        "item": "soeoeoe:bravin_legs",
+        "count": 1
+    }
+}
