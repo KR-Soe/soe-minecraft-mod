@@ -1,0 +1,54 @@
+===== TOOLS =====
+
+A harvestLevel (int)
+Which blocks are mineable. Vanilla blocks range between 0 and 3.
+	Wood: 0
+	Stone: 1
+	Iron: 2
+	Diamond: 3
+	Gold: 0
+	
+The max durability (int)
+How many times the tool can be used.
+	Gold: 32 uses
+	Wood: 59 uses
+	Stone: 131 uses
+	Iron: 250 uses
+	Diamond: 1561 uses
+	netherite: 2031 uses
+	
+The mining speed (float)
+How fast the tool is.
+	No tool: 1.0f
+	Wood: 2.0f
+	Stone: 4.0f
+	Iron: 6.0f
+	Diamond: 8.0f
+	Gold: 12.0f
+	
+The damage (float)
+How much damage it does against entities.
+	Wood: 0.0f
+	Stone: 1.0f
+	Iron: 2.0f
+	Diamond: 3.0f
+	Gold: 0.0f
+	
+The enchantability (int)
+How good the enchants are.
+	Wood: 15
+	Stone: 5
+	Iron: 14
+	Diamond: 10
+	Gold: 22
+	
+	
+===== ARMOR =====
+
+The enchantability (int)
+How good the enchants are.
+	Leather: 15
+	Iron: 9
+	Chain: 12
+	Diamond: 10
+	Gold: 25

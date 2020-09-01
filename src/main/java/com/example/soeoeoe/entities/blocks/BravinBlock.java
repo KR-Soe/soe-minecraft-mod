@@ -14,7 +14,7 @@ public class BravinBlock extends BlockBase {
 		super(name, material);
 		setSoundType(SoundType.STONE);
 		setHardness(2.0F);
-		setHarvestLevel("pickaxe", 2);
+		setHarvestLevel("pickaxe", 4);
 		setResistance(6.0F);
 	}
 }

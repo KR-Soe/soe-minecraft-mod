@@ -5,6 +5,7 @@ item.bravin_chestplate.name=Pechera de Bravin
 item.bravin_helmet.name=Casco de Bravin
 item.bravin_legs.name=Pantalones de Bravin
 item.bravin_feets.name=Botas de Bravin
+item.bravin_axe.name=Hacha de Bravin
 
 //blocks
 tile.lunita_block.name=Mineral de Lunita
