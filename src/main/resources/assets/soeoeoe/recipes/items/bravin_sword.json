@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "X",
+        "X",
+        "S"
+    ],
+    "key": {
+        "X": {
+            "item": "soeoeoe:bravin_ingot"
+        },
+        "S": {
+        	"item": "minecraft:stick"
+        }
+     },
+    "result": {
+        "item": "soeoeoe:bravin_sword",
+        "count": 1
+    }
+}

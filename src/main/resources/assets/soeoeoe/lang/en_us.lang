@@ -6,6 +6,10 @@ item.bravin_helmet.name=Casco de Bravin
 item.bravin_legs.name=Pantalones de Bravin
 item.bravin_feets.name=Botas de Bravin
 item.bravin_axe.name=Hacha de Bravin
+item.bravin_pickaxe.name=Pico de Bravin
+item.bravin_spade.name=Pala de Bravin
+item.bravin_hoe.name=Azada de Bravin
+item.bravin_sword.name=Espada de Bravin
 
 //blocks
 tile.lunita_block.name=Mineral de Lunita

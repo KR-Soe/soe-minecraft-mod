@@ -5,6 +5,10 @@ import java.util.List;
 import com.example.soeoeoe.entities.items.ItemBase;
 import com.example.soeoeoe.entities.items.armor.BaseArmor;
 import com.example.soeoeoe.entities.items.weapons.BravinAxe;
+import com.example.soeoeoe.entities.items.weapons.BravinHoe;
+import com.example.soeoeoe.entities.items.weapons.BravinPickaxe;
+import com.example.soeoeoe.entities.items.weapons.BravinSpade;
+import com.example.soeoeoe.entities.items.weapons.BravinSword;
 import com.example.soeoeoe.utils.handlers.Settings;
 
 import net.minecraftforge.common.util.EnumHelper;
@@ -26,8 +30,8 @@ public class ModItems {
 			"tool_material_bravin_ingot", 
 			4, 
 			400,
-			9.0F, 
-			9.0F,
+			12.0F, 
+			3.0F,
 			14
 		); 
 	
@@ -73,4 +77,9 @@ public class ModItems {
 	);
 	
 	public static final Item BRAVIN_AXE = new BravinAxe("bravin_axe", TOOL_MATERIAL_BRAVIN_INGOT);
+	public static final Item BRAVIN_PICKAXE = new BravinPickaxe("bravin_pickaxe", TOOL_MATERIAL_BRAVIN_INGOT);
+	public static final Item BRAVIN_HOE = new BravinHoe("bravin_hoe", TOOL_MATERIAL_BRAVIN_INGOT);
+	public static final Item BRAVIN_SPADE = new BravinSpade("bravin_spade", TOOL_MATERIAL_BRAVIN_INGOT);
+	public static final Item BRAVIN_SWORD = new BravinSword("bravin_sword", TOOL_MATERIAL_BRAVIN_INGOT);
+
 }

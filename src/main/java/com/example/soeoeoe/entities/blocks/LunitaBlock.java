@@ -14,7 +14,7 @@ public class LunitaBlock extends BlockBase {
 		super(name, material);
 		setSoundType(SoundType.STONE);
 		setHardness(1.5F);
-		setHarvestLevel("pickaxe", 1);
+		setHarvestLevel("pickaxe", 4);
 		setResistance(6.0F);
 		setLightLevel(0.5F);
 	}
