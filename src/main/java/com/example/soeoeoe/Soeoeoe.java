@@ -2,6 +2,8 @@ package com.example.soeoeoe;
 
 import net.minecraft.creativetab.CreativeTabs;
 import com.example.soeoeoe.utils.handlers.Settings;
+import com.example.soeoeoe.world.ModWorldGeneration;
+
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -10,6 +12,8 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 import org.apache.logging.log4j.Logger;
 
 import com.example.soeoeoe.init.BlockInit;
@@ -27,6 +31,7 @@ public class Soeoeoe {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
+        GameRegistry.registerWorldGenerator(new ModWorldGeneration(), 3);
     }
     
     @EventHandler

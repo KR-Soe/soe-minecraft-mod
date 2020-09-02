@@ -29,10 +29,10 @@ public class ModItems {
 	public static final ToolMaterial TOOL_MATERIAL_BRAVIN_INGOT = EnumHelper.addToolMaterial(
 			"tool_material_bravin_ingot", 
 			4, 
-			400,
+			300,
 			12.0F, 
 			3.0F,
-			14
+			9
 		); 
 	
 	//----- ARMOR_MATERIALS -------
@@ -41,8 +41,8 @@ public class ModItems {
 		"armor_material_bravin_ingot",
 		Settings.MODID + ":bravin_armor",
 		14,
-		new int[] {3, 5, 7, 4}, 
-		9, 
+		new int[] {3, 5, 7, 2}, 
+		6, 
 		SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 
 		1.0F
 	);
