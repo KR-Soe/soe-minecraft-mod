@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "soeoeoe:orichalcum_ingot"
+        }
+     },
+    "result": {
+        "item": "soeoeoe:orichalcum_chestplate",
+        "count": 1
+    }
+}
