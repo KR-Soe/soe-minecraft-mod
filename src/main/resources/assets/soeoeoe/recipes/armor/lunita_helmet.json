@@ -2,17 +2,19 @@
     "type": "minecraft:crafting_shaped",
     
     "pattern": [
-        "X X",
-        "XXX",
-        "XXX"
+        "LLL",
+        "LOL"
     ],
     "key": {
-        "X": {
-            "item": "soeoeoe:orichalcum_ingot"
+        "L": {
+            "item": "soeoeoe:lunita_ore"
+        },
+        "O": {
+            "item": "soeoeoe:orichalcum_helmet"
         }
      },
     "result": {
-        "item": "soeoeoe:orichalcum_chestplate",
+        "item": "soeoeoe:lunita_helmet",
         "count": 1
     }
 }

@@ -3,19 +3,19 @@
     
     "pattern": [
         "L L",
-        "LCL",
+        "LOL",
         "LLL"
     ],
     "key": {
         "L": {
-            "item": "soeoeoe:lunita"
+            "item": "soeoeoe:lunita_ore"
         },
-        "C": {
+        "O": {
         	"item": "soeoeoe:orichalcum_chestplate"
         }
      },
     "result": {
-        "item": "soeoeoe:orichalcum_chestplate",
+        "item": "soeoeoe:lunita_chestplate",
         "count": 1
     }
 }

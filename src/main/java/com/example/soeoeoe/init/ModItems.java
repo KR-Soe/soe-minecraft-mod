@@ -48,43 +48,26 @@ public class ModItems {
 	);
 	
 	public static final ArmorMaterial ARMOR_MATERIAL_LUNITA = EnumHelper.addArmorMaterial(
-		"armor_material_lunita",
+		"armor_material_lunita_ore",
 		Settings.MODID + ":lunita_armor",
-		14,
-		new int[] {3, 5, 7, 2}, 
-		6, 
+		16,
+		new int[] {4, 7, 8, 4}, 
+		17, 
 		SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 
-		1.0F
+		2.0F
 	);
 	
 	// ------- ARMOR ------
-	public static final Item ORICHALCUM_CHESTPLATE = new BaseArmor(
-		"orichalcum_chestplate", 
-		ARMOR_MATERIAL_ORICHALCUM_INGOT, 
-		1, 
-		EntityEquipmentSlot.CHEST
-	);
+	public static final Item ORICHALCUM_CHESTPLATE = new BaseArmor("orichalcum_chestplate", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.CHEST);
+	public static final Item ORICHALCUM_HELMET = new BaseArmor("orichalcum_helmet", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.HEAD);
+	public static final Item ORICHALCUM_LEGS = new BaseArmor("orichalcum_legs", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.LEGS);
+	public static final Item ORICHALCUM_FEETS = new BaseArmor("orichalcum_feets", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.FEET);
 	
-	public static final Item ORICHALCUM_HELMET = new BaseArmor(
-		"orichalcum_helmet", 
-		ARMOR_MATERIAL_ORICHALCUM_INGOT, 
-		1, 
-		EntityEquipmentSlot.HEAD
-	);
+	public static final Item LUNITA_CHESTPLATE = new BaseArmor("lunita_chestplate", ARMOR_MATERIAL_LUNITA, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LUNITA_HELMET = new BaseArmor("lunita_helmet", ARMOR_MATERIAL_LUNITA, 1, EntityEquipmentSlot.HEAD);
+	public static final Item LUNITA_LEGS = new BaseArmor("lunita_legs", ARMOR_MATERIAL_LUNITA, 1, EntityEquipmentSlot.LEGS);
+	public static final Item LUNITA_FEETS = new BaseArmor("lunita_feets", ARMOR_MATERIAL_LUNITA, 1, EntityEquipmentSlot.FEET);
 	
-	public static final Item ORICHALCUM_LEGS = new BaseArmor(
-		"orichalcum_legs", 
-		ARMOR_MATERIAL_ORICHALCUM_INGOT, 
-		1, 
-		EntityEquipmentSlot.LEGS
-	);
-	
-	public static final Item ORICHALCUM_FEETS = new BaseArmor(
-		"orichalcum_feets", 
-		ARMOR_MATERIAL_ORICHALCUM_INGOT, 
-		1, 
-		EntityEquipmentSlot.FEET
-	);
 	
 	public static final Item ORICHALCUM_AXE = new OrichalcumAxe("orichalcum_axe", TOOL_MATERIAL_ORICHALCUM_INGOT);
 	public static final Item ORICHALCUM_PICKAXE = new OrichalcumPickaxe("orichalcum_pickaxe", TOOL_MATERIAL_ORICHALCUM_INGOT);
