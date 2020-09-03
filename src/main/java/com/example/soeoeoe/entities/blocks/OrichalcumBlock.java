@@ -9,8 +9,8 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 
-public class BravinBlock extends BlockBase {
-	public BravinBlock(String name, Material material) {
+public class OrichalcumBlock extends BlockBase {
+	public OrichalcumBlock(String name, Material material) {
 		super(name, material);
 		setSoundType(SoundType.STONE);
 		setHardness(2.0F);

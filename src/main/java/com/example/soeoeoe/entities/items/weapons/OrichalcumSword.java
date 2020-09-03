@@ -4,10 +4,11 @@ import com.example.soeoeoe.Soeoeoe;
 import com.example.soeoeoe.init.ModItems;
 import com.example.soeoeoe.utils.handlers.IHasModel;
 
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemSword;
 
-public class BravinPickaxe extends ItemPickaxe implements IHasModel{
-	public BravinPickaxe(String name, ToolMaterial material) {
+public class OrichalcumSword extends ItemSword implements IHasModel{
+
+	public OrichalcumSword(String name, ToolMaterial material) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -20,4 +21,5 @@ public class BravinPickaxe extends ItemPickaxe implements IHasModel{
 	public void registerModels() {
 		Soeoeoe.proxy.registerItemRenderer(this, 0, "inventory");
 	}
+
 }

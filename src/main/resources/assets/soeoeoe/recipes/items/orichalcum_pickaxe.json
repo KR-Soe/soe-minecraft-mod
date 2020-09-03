@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shaped",
     
     "pattern": [
-        "XX",
-        " S",
-        " S"
+        "XXX",
+        " S ",
+        " S "
     ],
     "key": {
         "X": {
-            "item": "soeoeoe:bravin_ingot"
+            "item": "soeoeoe:orichalcum_ingot"
         },
         "S": {
         	"item": "minecraft:stick"
         }
      },
     "result": {
-        "item": "soeoeoe:bravin_hoe",
+        "item": "soeoeoe:orichalcum_pickaxe",
         "count": 1
     }
 }

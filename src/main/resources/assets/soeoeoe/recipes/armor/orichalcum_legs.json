@@ -3,19 +3,16 @@
     
     "pattern": [
         "XXX",
-        " S ",
-        " S "
+        "X X",
+        "X X"
     ],
     "key": {
         "X": {
-            "item": "soeoeoe:bravin_ingot"
-        },
-        "S": {
-        	"item": "minecraft:stick"
+            "item": "soeoeoe:orichalcum_ingot"
         }
      },
     "result": {
-        "item": "soeoeoe:bravin_pickaxe",
+        "item": "soeoeoe:orichalcum_legs",
         "count": 1
     }
 }

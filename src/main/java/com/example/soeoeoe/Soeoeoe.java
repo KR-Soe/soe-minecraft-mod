@@ -17,6 +17,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.Logger;
 
 import com.example.soeoeoe.init.BlockInit;
+import com.example.soeoeoe.init.ModItems;
 import com.example.soeoeoe.init.Recipes;
 import com.example.soeoeoe.proxy.CommonProxy;
 
@@ -47,7 +48,7 @@ public class Soeoeoe {
 		
 		@Override
 		public ItemStack getTabIconItem() {
-			return new ItemStack(BlockInit.BRAVIN_BLOCK);
+			return new ItemStack(ModItems.ORICHALCUM_INGOT);
 		}
 	});
 	

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "soeoeoe:blocks/bravin_block"
+    "all": "soeoeoe:blocks/orichalcum_block"
   }
 }

@@ -3,16 +3,15 @@
     
     "pattern": [
         "X X",
-        "XXX",
-        "XXX"
+        "X X"
     ],
     "key": {
         "X": {
-            "item": "soeoeoe:bravin_ingot"
+            "item": "soeoeoe:orichalcum_ingot"
         }
      },
     "result": {
-        "item": "soeoeoe:bravin_chestplate",
+        "item": "soeoeoe:orichalcum_feets",
         "count": 1
     }
 }

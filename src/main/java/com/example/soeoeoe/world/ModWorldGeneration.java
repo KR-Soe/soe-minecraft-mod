@@ -18,13 +18,15 @@ public class ModWorldGeneration implements IWorldGenerator{
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		if(world.provider.getDimension() == 0) {
 			generateOverWorld(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
-			System.out.println("ORES GENERATED!!");
 		}
 	}
 	
 	private void generateOverWorld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-		generateOres(BlockInit.BRAVIN_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 65, random.nextInt(5) + 2,20);
-		generateOres(BlockInit.LUNITA_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 65, random.nextInt(5) + 2,20);
+		int commonOreChances = 15;
+		int rareOreChances = 10;
+		int legendaryOreChances = 7;
+		generateOres(BlockInit.ORICHALCUM_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 60, random.nextInt(4) + 2, commonOreChances);
+		generateOres(BlockInit.LUNITA_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 14, random.nextInt(3) + 1, rareOreChances);
 	}
 	
 	private void generateOres(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) {

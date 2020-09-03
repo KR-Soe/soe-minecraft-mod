@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "soeoeoe:items/bravin_axe"
+    "layer0": "soeoeoe:items/orichalcum_pickaxe"
   }
 }

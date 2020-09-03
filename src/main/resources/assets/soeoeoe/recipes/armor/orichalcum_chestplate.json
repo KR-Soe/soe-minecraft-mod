@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shaped",
     
     "pattern": [
-        "XXX",
         "X X",
-        "   "
+        "XXX",
+        "XXX"
     ],
     "key": {
         "X": {
-            "item": "soeoeoe:bravin_ingot"
+            "item": "soeoeoe:orichalcum_ingot"
         }
      },
     "result": {
-        "item": "soeoeoe:bravin_helmet",
+        "item": "soeoeoe:orichalcum_chestplate",
         "count": 1
     }
 }

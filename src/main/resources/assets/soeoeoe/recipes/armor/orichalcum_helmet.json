@@ -4,15 +4,14 @@
     "pattern": [
         "XXX",
         "X X",
-        "X X"
     ],
     "key": {
         "X": {
-            "item": "soeoeoe:bravin_ingot"
+            "item": "soeoeoe:orichalcum_ingot"
         }
      },
     "result": {
-        "item": "soeoeoe:bravin_legs",
+        "item": "soeoeoe:orichalcum_helmet",
         "count": 1
     }
 }

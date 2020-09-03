@@ -6,6 +6,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class Recipes {
 	public static void init() {
-		GameRegistry.addSmelting(BlockInit.BRAVIN_BLOCK, new ItemStack(ModItems.BRAVIN_INGOT, 1), 1.5f);
+		GameRegistry.addSmelting(BlockInit.ORICHALCUM_BLOCK, new ItemStack(ModItems.ORICHALCUM_INGOT, 1), 1.5f);
 	}
 }

@@ -3,12 +3,11 @@ package com.example.soeoeoe.entities.items.weapons;
 import com.example.soeoeoe.Soeoeoe;
 import com.example.soeoeoe.init.ModItems;
 import com.example.soeoeoe.utils.handlers.IHasModel;
+import net.minecraft.item.ItemAxe;
 
-import net.minecraft.item.ItemHoe;
-
-public class BravinHoe extends ItemHoe implements IHasModel{
-	public BravinHoe(String name, ToolMaterial material) {
-		super(material);
+public class OrichalcumAxe extends ItemAxe implements IHasModel {
+	public OrichalcumAxe(String name, ToolMaterial material) {
+		super(material, 9.0F, -3.2F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Soeoeoe.TAB);
@@ -19,6 +18,6 @@ public class BravinHoe extends ItemHoe implements IHasModel{
 	@Override
 	public void registerModels() {
 		Soeoeoe.proxy.registerItemRenderer(this, 0, "inventory");
+		
 	}
-
 }

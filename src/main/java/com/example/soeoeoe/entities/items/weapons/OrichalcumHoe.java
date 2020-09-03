@@ -4,10 +4,10 @@ import com.example.soeoeoe.Soeoeoe;
 import com.example.soeoeoe.init.ModItems;
 import com.example.soeoeoe.utils.handlers.IHasModel;
 
-import net.minecraft.item.ItemSpade;
+import net.minecraft.item.ItemHoe;
 
-public class BravinSpade extends ItemSpade implements IHasModel{
-	public BravinSpade(String name, ToolMaterial material) {
+public class OrichalcumHoe extends ItemHoe implements IHasModel{
+	public OrichalcumHoe(String name, ToolMaterial material) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -20,6 +20,5 @@ public class BravinSpade extends ItemSpade implements IHasModel{
 	public void registerModels() {
 		Soeoeoe.proxy.registerItemRenderer(this, 0, "inventory");
 	}
-	
-	
+
 }

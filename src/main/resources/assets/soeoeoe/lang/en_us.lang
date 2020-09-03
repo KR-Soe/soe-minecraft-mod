@@ -1,17 +1,17 @@
 //items
 item.lunita_ore.name=Lunita
-item.bravin_ingot.name=Lingote de Bravin
-item.bravin_chestplate.name=Pechera de Bravin
-item.bravin_helmet.name=Casco de Bravin
-item.bravin_legs.name=Pantalones de Bravin
-item.bravin_feets.name=Botas de Bravin
-item.bravin_axe.name=Hacha de Bravin
-item.bravin_pickaxe.name=Pico de Bravin
-item.bravin_spade.name=Pala de Bravin
-item.bravin_hoe.name=Azada de Bravin
-item.bravin_sword.name=Espada de Bravin
+item.orichalcum_ingot.name=Lingote de Oricalco
+item.orichalcum_chestplate.name=Pechera de Oricalco
+item.orichalcum_helmet.name=Casco de Oricalco
+item.orichalcum_legs.name=Pantalones de Oricalco
+item.orichalcum_feets.name=Botas de Oricalco
+item.orichalcum_axe.name=Hacha de Oricalco
+item.orichalcum_pickaxe.name=Pico de Oricalco
+item.orichalcum_spade.name=Pala de Oricalco
+item.orichalcum_hoe.name=Azada de Oricalco
+item.orichalcum_sword.name=Espada de Oricalco
 
 //blocks
 tile.lunita_block.name=Mineral de Lunita
-tile.bravin_block.name=Mineral de Bravin
+tile.orichalcum_block.name=Mineral de Oricalco
 itemGroup.Soeoe=SoeMod
