@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "soeoeoe:items/orichalcum_bow_pulling_0"
+  }
+}

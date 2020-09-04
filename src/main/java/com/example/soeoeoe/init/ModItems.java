@@ -5,6 +5,7 @@ import java.util.List;
 import com.example.soeoeoe.entities.items.ItemBase;
 import com.example.soeoeoe.entities.items.armor.BaseArmor;
 import com.example.soeoeoe.entities.items.weapons.OrichalcumAxe;
+import com.example.soeoeoe.entities.items.weapons.OrichalcumBow;
 import com.example.soeoeoe.entities.items.weapons.OrichalcumHoe;
 import com.example.soeoeoe.entities.items.weapons.OrichalcumPickaxe;
 import com.example.soeoeoe.entities.items.weapons.OrichalcumSpade;
@@ -57,7 +58,7 @@ public class ModItems {
 		2.0F
 	);
 	
-	// ------- ARMOR ------
+	// ------- ARMOR ------	
 	public static final Item ORICHALCUM_CHESTPLATE = new BaseArmor("orichalcum_chestplate", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.CHEST);
 	public static final Item ORICHALCUM_HELMET = new BaseArmor("orichalcum_helmet", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.HEAD);
 	public static final Item ORICHALCUM_LEGS = new BaseArmor("orichalcum_legs", ARMOR_MATERIAL_ORICHALCUM_INGOT, 1, EntityEquipmentSlot.LEGS);
@@ -68,7 +69,7 @@ public class ModItems {
 	public static final Item LUNITA_LEGS = new BaseArmor("lunita_legs", ARMOR_MATERIAL_LUNITA, 1, EntityEquipmentSlot.LEGS);
 	public static final Item LUNITA_FEETS = new BaseArmor("lunita_feets", ARMOR_MATERIAL_LUNITA, 1, EntityEquipmentSlot.FEET);
 	
-	
+	public static final Item ORICHALCUM_BOW = new OrichalcumBow("orichalcum_bow");
 	public static final Item ORICHALCUM_AXE = new OrichalcumAxe("orichalcum_axe", TOOL_MATERIAL_ORICHALCUM_INGOT);
 	public static final Item ORICHALCUM_PICKAXE = new OrichalcumPickaxe("orichalcum_pickaxe", TOOL_MATERIAL_ORICHALCUM_INGOT);
 	public static final Item ORICHALCUM_HOE = new OrichalcumHoe("orichalcum_hoe", TOOL_MATERIAL_ORICHALCUM_INGOT);

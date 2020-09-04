@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        " OH",
+        "O H",
+        " OH"
+    ],
+    "key": {
+        "O": {
+            "item": "soeoeoe:orichalcum_ingot"
+        },
+        "H": {
+        	"item": "minecraft:string"
+        }
+     },
+    "result": {
+        "item": "soeoeoe:orichalcum_bow",
+        "count": 1
+    }
+}

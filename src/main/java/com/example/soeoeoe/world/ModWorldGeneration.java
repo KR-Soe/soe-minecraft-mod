@@ -41,7 +41,6 @@ public class ModWorldGeneration implements IWorldGenerator{
 			
 			WorldGenMinable generator = new WorldGenMinable(ore, size);
 			generator.generate(world, random, position);
-			System.out.println("generated "+ ore + " vet " + "with "+ size +" ores");
 		}
 	}
 

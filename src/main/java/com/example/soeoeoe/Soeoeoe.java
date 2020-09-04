@@ -38,6 +38,7 @@ public class Soeoeoe {
     @EventHandler
     public static void init(FMLInitializationEvent event) {
     	Recipes.init();
+    	System.out.println("");
     }
     
 	@SidedProxy(clientSide = Settings.CLIENT_PROXY_CLASS, serverSide = Settings.COMMON_PROXY_CLASS)
