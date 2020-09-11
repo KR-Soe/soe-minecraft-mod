@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import com.example.soeoeoe.entities.items.ItemBase;
 import com.example.soeoeoe.entities.items.armor.BaseArmor;
+import com.example.soeoeoe.entities.items.weapons.LunitaAxe;
+import com.example.soeoeoe.entities.items.weapons.LunitaHoe;
+import com.example.soeoeoe.entities.items.weapons.LunitaPickaxe;
+import com.example.soeoeoe.entities.items.weapons.LunitaSpade;
+import com.example.soeoeoe.entities.items.weapons.LunitaSword;
+
 import com.example.soeoeoe.entities.items.weapons.OrichalcumAxe;
 import com.example.soeoeoe.entities.items.weapons.OrichalcumBow;
 import com.example.soeoeoe.entities.items.weapons.OrichalcumHoe;
@@ -23,6 +29,7 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item LUNITA_ORE = new ItemBase("lunita_ore");
+	public static final Item IRON_SRICK = new ItemBase("iron_stick");
 	public static final Item ORICHALCUM_INGOT = new ItemBase("orichalcum_ingot");
 	
 	//----- TOOL_MATERIALS -----
@@ -35,6 +42,15 @@ public class ModItems {
 		3.0F,
 		9
 	); 
+	
+	public static final ToolMaterial TOOL_MATERIAL_LUNITA = EnumHelper.addToolMaterial(
+		"tool_material_lunita",
+		9,
+		1956,
+		17.0F,
+		5.0F,
+		10
+	);
 	
 	//----- ARMOR_MATERIALS -------
 	//args are -> (name, textureName, durability, reductionAmounts[boots, legs, chest, head], enchantability, soundOnEquip, toughness)	
@@ -75,5 +91,11 @@ public class ModItems {
 	public static final Item ORICHALCUM_HOE = new OrichalcumHoe("orichalcum_hoe", TOOL_MATERIAL_ORICHALCUM_INGOT);
 	public static final Item ORICHALCUM_SPADE = new OrichalcumSpade("orichalcum_spade", TOOL_MATERIAL_ORICHALCUM_INGOT);
 	public static final Item ORICHALCUM_SWORD = new OrichalcumSword("orichalcum_sword", TOOL_MATERIAL_ORICHALCUM_INGOT);
+	
+	public static final Item LUNITA_AXE = new LunitaAxe("lunita_axe", TOOL_MATERIAL_LUNITA);
+	public static final Item LUNITA_PICKAXE = new LunitaPickaxe("lunita_pickaxe", TOOL_MATERIAL_LUNITA);
+	public static final Item LUNITA_HOE = new LunitaHoe("lunita_hoe", TOOL_MATERIAL_LUNITA);
+	public static final Item LUNITA_SPADE = new LunitaSpade("lunita_spade", TOOL_MATERIAL_LUNITA);
+	public static final Item LUNITA_SWORD = new LunitaSword("lunita_sword", TOOL_MATERIAL_LUNITA);
 
 }

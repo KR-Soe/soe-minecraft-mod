@@ -1,5 +1,6 @@
 //  ========== items ==========
 item.lunita_ore.name=Lunita
+item.iron_stick.name=Vara de hierro
 item.orichalcum_ingot.name=Lingote de Oricalco
 
 item.orichalcum_chestplate.name=Pechera de Oricalco
@@ -18,6 +19,13 @@ item.orichalcum_pickaxe.name=Pico de Oricalco
 item.orichalcum_spade.name=Pala de Oricalco
 item.orichalcum_hoe.name=Azada de Oricalco
 item.orichalcum_sword.name=Espada de Oricalco
+
+item.lunita_axe.name=Hacha de Lunita
+item.lunita_pickaxe.name=Pico de Lunita
+item.lunita_spade.name=Pala de Lunita
+item.lunita_hoe.name=Azada de Lunita
+item.lunita_sword.name=Espada de Lunita
+
 
 
 //  ========== blocks ==========

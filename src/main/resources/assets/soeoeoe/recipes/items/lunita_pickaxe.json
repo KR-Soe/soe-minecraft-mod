@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "LLL",
+        " P ",
+        " I "
+    ],
+    "key": {
+        "L": {
+            "item": "soeoeoe:lunita_ore"
+        },
+        "P": {
+        	"item": "soeoeoe:orichalcum_pickaxe"
+        },
+        "I": {
+        	"item": "soeoeoe:iron_stick"
+        }
+     },
+    "result": {
+        "item": "soeoeoe:lunita_pickaxe",
+        "count": 1
+    }
+}
