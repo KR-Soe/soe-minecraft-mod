@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 
 public class LunitaBlock extends BlockBase {
 	int minDropAmount = 1;
-	int maxDropAmount = 2;
+	int maxDropAmount = 1;
 
 	public LunitaBlock(String name, Material material) {
 		super(name, material);
