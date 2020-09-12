@@ -48,7 +48,7 @@ public class ModItems {
 		9,
 		1956,
 		17.0F,
-		5.0F,
+		6.5F,
 		10
 	);
 	
@@ -67,9 +67,9 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_MATERIAL_LUNITA = EnumHelper.addArmorMaterial(
 		"armor_material_lunita_ore",
 		Settings.MODID + ":lunita_armor",
-		16,
-		new int[] {4, 7, 8, 4}, 
-		17, 
+		19,
+		new int[] {5, 8, 9, 5}, 
+		8, 
 		SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 
 		2.0F
 	);
