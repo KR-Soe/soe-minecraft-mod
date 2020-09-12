@@ -39,7 +39,7 @@ public class ModItems {
 		4, 
 		300,
 		12.0F, 
-		3.0F,
+		2.5F,
 		9
 	); 
 	
@@ -48,7 +48,7 @@ public class ModItems {
 		9,
 		1956,
 		17.0F,
-		6.5F,
+		5.0F,
 		10
 	);
 	
@@ -57,7 +57,7 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_MATERIAL_ORICHALCUM_INGOT = EnumHelper.addArmorMaterial(
 		"armor_material_orichalcum_ingot",
 		Settings.MODID + ":orichalcum_armor",
-		14,
+		18,
 		new int[] {3, 5, 7, 2}, 
 		6, 
 		SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 
@@ -67,11 +67,11 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_MATERIAL_LUNITA = EnumHelper.addArmorMaterial(
 		"armor_material_lunita_ore",
 		Settings.MODID + ":lunita_armor",
-		19,
-		new int[] {5, 8, 9, 5}, 
+		25,
+		new int[] {4, 7, 9, 4}, 
 		8, 
 		SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 
-		2.0F
+		1.5F
 	);
 	
 	// ------- ARMOR ------	
