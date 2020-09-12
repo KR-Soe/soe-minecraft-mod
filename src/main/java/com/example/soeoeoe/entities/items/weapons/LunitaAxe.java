@@ -7,7 +7,7 @@ import net.minecraft.item.ItemAxe;
 
 public class LunitaAxe extends ItemAxe implements IHasModel {
 	public LunitaAxe(String name, ToolMaterial material) {
-		super(material, 9.0F, -2.0F);
+		super(material, 9.0F, -3.0F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Soeoeoe.TAB);
