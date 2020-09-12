@@ -26,7 +26,7 @@ public class ModWorldGeneration implements IWorldGenerator{
 		int rareOreChances = 13;
 		int legendaryOreChances = 7; 
 		generateOres(BlockInit.ORICHALCUM_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 40, random.nextInt(5) + 2, commonOreChances);
-		generateOres(BlockInit.LUNITA_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 14, random.nextInt(4) + 1, rareOreChances);
+		generateOres(BlockInit.LUNITA_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 16, random.nextInt(5) + 2, rareOreChances);
 	}
 	
 	private void generateOres(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) {
