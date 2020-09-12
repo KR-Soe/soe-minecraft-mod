@@ -24,7 +24,7 @@ public class ModWorldGeneration implements IWorldGenerator{
 	private void generateOverWorld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		int commonOreChances = 16;
 		int rareOreChances = 13;
-		int legendaryOreChances = 7; 
+		int legendaryOreChances = 1; 
 		generateOres(BlockInit.ORICHALCUM_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 40, random.nextInt(5) + 2, commonOreChances);
 		generateOres(BlockInit.LUNITA_BLOCK.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 6, 16, random.nextInt(5) + 2, legendaryOreChances);
 	}
